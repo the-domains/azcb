@@ -1,3 +1,4 @@
+favicon: null
 name: AZCB
 opengraph:
   image: null
@@ -9,32 +10,31 @@ collections:
       number: 15
       paginate: true
       navigable: true
+    permalink:
+      path: '/:title/'
     feed:
       path: /rss.xml
       format: rss
       number: 10
-    permalink:
-      path: '/:title/'
 purpose: []
 color:
   saturation: 1
-  brandStrength: 0.8931257
+  brandStrength: 1
   lightness: 0.8276047
   brandColors:
-    - '#151605'
-    - '#E9E0D0'
-    - '#BDAC99'
-    - '#F9B202'
-    - '#303866'
+    - '#0E0504'
+    - '#646D6E'
+    - '#D89980'
+    - '#D7E0E0'
+    - '#D01F2F'
   rhythmicContrast: 0.3236699
 typography_spectrum: 0.8286788
-cta:
-  bucket: null
-  version: null
-  domain: null
+layout_spectrum: 1
 analytics:
   twitter: null
   google: null
   facebook: null
-favicon: null
-layout_spectrum: 0.4817401
+cta:
+  bucket: null
+  version: null
+  domain: null
