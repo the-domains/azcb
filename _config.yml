@@ -1,7 +1,4 @@
-analytics:
-  twitter: null
-  google: null
-  facebook: null
+name: AZCB
 opengraph:
   image: null
   type: null
@@ -12,16 +9,16 @@ collections:
       number: 15
       paginate: true
       navigable: true
-    permalink:
-      path: '/:title/'
     feed:
       path: /rss.xml
       format: rss
       number: 10
+    permalink:
+      path: '/:title/'
 purpose: []
 color:
   saturation: 1
-  brandStrength: 0.7599242168944329
+  brandStrength: 0.8931257
   lightness: 0.8276047
   brandColors:
     - '#151605'
@@ -35,6 +32,9 @@ cta:
   bucket: null
   version: null
   domain: null
-layout_spectrum: 0.4817401
+analytics:
+  twitter: null
+  google: null
+  facebook: null
 favicon: null
-name: AZCB
+layout_spectrum: 0.4817401
